@@ -25,7 +25,7 @@ module.exports = {
       poll: 1000
     },
     host: "0.0.0.0",
-    disableHostCheck: true,
+    //disableHostCheck: true, *Uncomment this line to work on c9
     historyApiFallback: true,
     contentBase: './'
   }
